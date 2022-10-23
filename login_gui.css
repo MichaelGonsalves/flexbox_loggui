@@ -1,5 +1,6 @@
 .flex-container {
     display: flex;
+    color: rgb(199, 44, 176);
     
 }
 .flex-container div   {
@@ -13,21 +14,25 @@
     text-decoration:solid;
 }
 .container {
-    background-image: url(https://i.pinimg.com/originals/45/b2/e7/45b2e764d14cf9dee6dc3ed1ba0ad680.gif);
-    background-size:cover;
+    background-image: url('https://i.pinimg.com/originals/45/b2/e7/45b2e764d14cf9dee6dc3ed1ba0ad680.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 15px;
     display:flex;
     justify-content:center;
-    height: 1000px; 
+    height: 900px; 
     align-items: center;
 }
 
 .login-acc {
+   
     background-color: rgb(85, 8, 180),0;
     padding: 10px;
     border-radius: 30px;
-    width: 500px;
+    width: 350px;
     -webkit-box-shadow: 17px 9px 90px 0px rgba(0,0,0,1);
     -moz-box-shadow: 17px 9px 90px 0px rgba(0,0,0,1);
     box-shadow: 17px 9px 90px 0px rgba(0,0,0,1);
@@ -87,7 +92,7 @@
         font-size: 15px;
         letter-spacing: -0.2px;
         word-spacing: 2px;
-        color: #000000;
+        color: #878080;
         font-weight: 800;
         text-decoration: none;
         font-style: oblique;
@@ -122,6 +127,7 @@
      .login-form h1 {
         color:rgb(58, 58, 238)
      }
+     
        @media all and (max-width: 400px) {
         .flex-input {
             flex-direction:column;
