@@ -1,18 +1,4 @@
-.flex-container {
-    display: flex;
-    color: rgb(199, 44, 176);
-    
-}
-.flex-container div   {
-    flex: 2;
-}
-.flex-container a{
-    text-decoration: none;
-    color:rgb(165, 180, 239)
-}
-.flex-container a:hover{
-    text-decoration:solid;
-}
+/* This is the background and page config. */ 
 .container {
     background-image: url('https://i.pinimg.com/originals/45/b2/e7/45b2e764d14cf9dee6dc3ed1ba0ad680.gif');
     background-repeat: no-repeat;
@@ -26,9 +12,25 @@
     height: 1000px; 
     align-items: center;
 }
+/* This is the alignment for Remember me/Forgot Password config. */
+.flex-container {
+    display: flex;
+    color: rgb(199, 44, 176);
+}
+.flex-container div   {
+    flex: 2;
+}
+.flex-container a{
+    text-decoration: none;
+    color:rgb(165, 180, 239)
+}
+.flex-container a:hover{
+    text-decoration:solid;
 
+}/* This is the end of the alignment for Remember me/Forgot Password config. */
+
+/* This is the main box config. */ 
 .login-acc {
-   
     background-color: rgb(85, 8, 180),0;
     padding: 10px;
     border-radius: 30px;
@@ -36,101 +38,103 @@
     -webkit-box-shadow: 17px 9px 90px 0px rgba(0,0,0,1);
     -moz-box-shadow: 17px 9px 90px 0px rgba(0,0,0,1);
     box-shadow: 17px 9px 90px 0px rgba(0,0,0,1);
-
 }
-    .flex-input {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        margin-bottom: 8px;
-        -webkit-box-shadow: 17px 28px 97px -42px rgba(22,22,23,0.32);
-        -moz-box-shadow: 17px 28px 97px -42px rgba(22,22,23,0.32);
-        box-shadow: 17px 28px 97px -42px rgba(22,22,23,0.32);
+/* This is the boxes for Username/Password config. */ 
+.flex-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 8px;
+    -webkit-box-shadow: 17px 28px 97px -42px rgba(22,22,23,0.32);
+    -moz-box-shadow: 17px 28px 97px -42px rgba(22,22,23,0.32);
+    box-shadow: 17px 28px 97px -42px rgba(22,22,23,0.32);
 
-} /* This is the Username/password Font, Size and style */
-   .test-input {   
-        flex-basis:content;
-        margin-top: 5px;
-        padding: 5px;
-        border: 5px solid #1C6EA4;
-        border-radius: 60px;
-        text-align: center;
-        justify-content: center;
-        font-family: "Times New Roman", Times, serif;
-        font-size: 18px;
-        letter-spacing: 2px;
-        word-spacing: 2px;
-        color: #777171;
-        font-weight: 400;
-        text-decoration: none;
-        font-style: italic;
-        font-variant: normal;
-        text-transform:none;
-        background-color: blanchedalmond;
-        -webkit-box-shadow: 5px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-        box-shadow: 5px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
-        }
-      label {
-      flex-basis: 5px;
-      margin-top: 5px;
-      font-size: 15px;
-      }
+} 
+/* This is the Username Font, Size and style */
+.test-input {   
+    flex-basis:content;
+    margin-top: 5px;
+    padding: 5px;
+    border: 5px solid #1C6EA4;
+    border-radius: 60px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #777171;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform:none;
+    background-color: blanchedalmond;
+    -webkit-box-shadow: 5px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+            }
+label {
+    flex-basis: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    }
      
-      /* This is the Username/password Font, Size and style */
-      label {
-        flex-basis:content;
-        margin-top: 5px;
-        padding: 5px;
-        border-right: 0px solid blanchedalmond;
-        border-bottom: 5px solid #1C6EA4;
-        border-left: 5px solid #1C6EA4;
-        border-top: 5px solid #1C6EA4;
-        border-radius: 15px 0px 0px 15px;
-        justify-content: center;
-        font-family: Georgia, serif;
-        font-size: 15px;
-        letter-spacing: -0.2px;
-        word-spacing: 2px;
-        color: #878080;
-        font-weight: 800;
-        text-decoration: none;
-        font-style: oblique;
-        font-variant: small-caps;
-        text-transform:uppercase;
-        background-color: blanchedalmond;
-        -webkit-box-shadow: 10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-        box-shadow: 10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);}
-      
+/* This is the Password Font, Size and style */
+label {
+    flex-basis:content;
+    margin-top: 5px;
+    padding: 5px;
+    border-right: 0px solid blanchedalmond;
+    border-bottom: 5px solid #1C6EA4;
+    border-left: 5px solid #1C6EA4;
+    border-top: 5px solid #1C6EA4;
+    border-radius: 15px 0px 0px 15px;
+    justify-content: center;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    word-spacing: 2px;
+    color: #878080;
+    font-weight: 800;
+    text-decoration: none;
+    font-style: oblique;
+    font-variant: small-caps;
+    text-transform:uppercase;
+    background-color: blanchedalmond;
+    -webkit-box-shadow: 10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);}
     
-    input[type="button"] { 
+/* This is the LOGIN button config. */ 
+input[type="button"] { 
         
-        width: 50%;
-        border-radius: 20px;
-        font-size: 20px;
-        padding: 10px;
-        background-color:rgb(58, 58, 238);
-        color: rgb(251, 253, 253);
-        border: none;
-        margin: 30px 0;
-        -webkit-box-shadow: 17px 28px 41px 8px rgba(22,22,23,1);
-        -moz-box-shadow: 17px 28px 41px 8px rgba(22,22,23,1);
-         box-shadow: 17px 28px 41px 8px rgba(22,22,23,1);
+    width: 50%;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    background-color:rgb(58, 58, 238);
+    color: rgb(251, 253, 253);
+    border: none;
+    margin: 30px 0;
+    -webkit-box-shadow: 17px 28px 41px 8px rgba(22,22,23,1);
+    -moz-box-shadow: 17px 28px 41px 8px rgba(22,22,23,1);
+    box-shadow: 17px 28px 41px 8px rgba(22,22,23,1);
         
-     }
-    input[type= "button"]:hover {
-        cursor: pointer;
-        background-color: rgb(5, 59, 158);
-     }
-     .login-form h1 {
-        color:rgb(58, 58, 238)
-     }
-     
-       @media all and (max-width: 400px) {
-        .flex-input {
-            flex-direction:column;
-        }
-        label{
-             flex-basis: 0;
-        }
-       }
+    }
+/* This is the hovering icon and click config. */ 
+input[type= "button"]:hover {
+    cursor: pointer;
+    background-color: rgb(5, 59, 158);
+    }
+.login-form h1 {
+color:rgb(58, 58, 238)
+    }
+/* This is the alignments for Phone and Tablets */
+    @media all and (max-width: 400px) {
+    .flex-input {
+        flex-direction:column;
+    }
+    label{
+            flex-basis: 0;
+    }
+}
